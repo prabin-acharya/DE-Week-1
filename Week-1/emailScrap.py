@@ -1,21 +1,18 @@
 import re
 
-# read data from input file
+# read data from input file(websiteData.txt)
 inputFile = open("websiteData.txt", "r")
 data = inputFile.read()
-data = [x.strip() for x in data.split()]
 inputFile.close()
 
 
-# parse data for emails
-emails = []
-for x in data:
-    if x.find("@") != -1:
-        emails.append(x)
+# extract emails
+# \w [a-zA-Z0-9_]
+# +  repeat one or more times
+emails = re.findall(r'[\w\.-]+@[\w\.-]+', data)
 
-print(emails)
 
-# write to output file
+# write to output file(result.json)
 outputFile = open("result.json", "w")
 outputFile.write("\n".join(emails))
 outputFile.close()
