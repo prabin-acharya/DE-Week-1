@@ -1,5 +1,5 @@
 {
-"jobs@linkedin.com": {
+"Jobs@linkedin.com": {
 "Occurances": 1,
 "emailType": "Non-Human"
 },
@@ -7,13 +7,13 @@
 "Occurances": 1,
 "emailType": "Non-Human"
 },
-"aayush@deepminds.xyz": {
-"Occurances": 2,
-"emailType": "Non-Human"
-},
 "susan.daniels@moo.com": {
 "Occurances": 1,
 "emailType": "Human"
+},
+"aayush@deepminds.xyz": {
+"Occurances": 1,
+"emailType": "Non-Human"
 },
 "hr@vancuemonics.com": {
 "Occurances": 1,
@@ -22,6 +22,10 @@
 "syneca.gregory@gmail.com": {
 "Occurances": 1,
 "emailType": "Human"
+},
+"realtors@bbn.com": {
+"Occurances": 1,
+"emailType": "Not Sure"
 },
 "info@content.linkedin.com": {
 "Occurances": 1,
